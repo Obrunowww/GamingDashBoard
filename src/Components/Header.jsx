@@ -1,11 +1,11 @@
-
+import HeaderSection from "./HeaderComponents/headersection"
 
 function Header(){
 
     return(
-        <>
-        <h1>Hello world0</h1>
-        </>
+        <header>
+            <HeaderSection/>
+        </header>
     )
 }
 
