@@ -1,14 +1,13 @@
 import HeaderMain from "./MainComponents/HeaderMain"
-
+import MainPrincipal from "./MainComponents/M-Main"
 
 function Main() {
   
     return (
      <main>
         <HeaderMain/>
-        <section></section> 
-        <section></section> 
-        <section></section>
+        <MainPrincipal/>
+        
      </main>
     )
   }

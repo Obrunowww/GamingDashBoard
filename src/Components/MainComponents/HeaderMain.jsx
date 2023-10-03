@@ -5,8 +5,13 @@ function HeaderMain(){
     return(
         <section className="mainHeader">
             <h2>Hi, nome</h2>
-            <InputCustomizado/>
-            <BottõesMainHeader/>
+
+            <div className="caixaDeInteração">
+
+                <InputCustomizado/>
+                <BottõesMainHeader/>
+
+            </div>
 
         </section>
     )

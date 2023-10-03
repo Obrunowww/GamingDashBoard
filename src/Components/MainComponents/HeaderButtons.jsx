@@ -1,14 +1,14 @@
-import {GrNotification} from "react-icons/gr"
+import {IoIosNotificationsOutline} from "react-icons/io"
 import {AiOutlineShopping} from "react-icons/ai"
 function BottõesMainHeader() {
     return(
     <section className="botõesDaHeader">
 
         <button >
-            <GrNotification />
+            <IoIosNotificationsOutline className="imagemBotão" />
         </button>
         <button>
-            <AiOutlineShopping/>
+            <AiOutlineShopping className="imagemBotão"/>
         </button>
 
     </section>)
