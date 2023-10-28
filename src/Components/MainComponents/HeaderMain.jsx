@@ -1,19 +1,20 @@
 import InputCustomizado from  "./HeaderInput"
 import BottõesMainHeader from "./HeaderButtons"
+import { MainHeader, InputCustumizadoContainer } from "../styledComponents/main/headerMain"
 
 function HeaderMain(){
     return(
-        <section className="mainHeader">
+        <MainHeader>
             <h2>Hi, nome</h2>
 
-            <div className="caixaDeInteração">
+            <InputCustumizadoContainer>
 
                 <InputCustomizado/>
                 <BottõesMainHeader/>
 
-            </div>
+            </InputCustumizadoContainer>
 
-        </section>
+        </MainHeader>
     )
 }
 

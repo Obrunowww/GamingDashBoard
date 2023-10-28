@@ -1,12 +1,14 @@
 import HeaderSection from "./HeaderComponents/headersection"
-
+import { HeaderContainer } from "./styledComponents/header/StyledHeader"
 function Header(){
 
     return(
-        <header>
+        <HeaderContainer>
             <HeaderSection/>
-        </header>
+        </HeaderContainer>
+        
     )
+
 }
 
 export default Header

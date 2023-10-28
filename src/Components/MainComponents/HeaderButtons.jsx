@@ -1,8 +1,10 @@
 import {IoIosNotificationsOutline} from "react-icons/io"
 import {AiOutlineShopping} from "react-icons/ai"
+import { BotõesDaMainHeader } from "../styledComponents/main/headerMain"
+
 function BottõesMainHeader() {
     return(
-    <section className="botõesDaHeader">
+    <BotõesDaMainHeader>
 
         <button >
             <IoIosNotificationsOutline className="imagemBotão" />
@@ -11,6 +13,6 @@ function BottõesMainHeader() {
             <AiOutlineShopping className="imagemBotão"/>
         </button>
 
-    </section>)
+    </BotõesDaMainHeader>)
 }
 export default BottõesMainHeader

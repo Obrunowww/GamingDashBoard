@@ -5,11 +5,13 @@ import { HiOutlineMail } from "react-icons/hi"
 import { BsHandbag } from "react-icons/bs"
 import{ AiOutlineStar} from "react-icons/ai"
 import{IoMdAdd} from "react-icons/io"
+import styled from 'styled-components';
+
 
 function HeaderSection() {
 
     return (
-        <section >
+        <><section>
 
 
             <div className="d20">
@@ -34,21 +36,20 @@ function HeaderSection() {
 
                     </li>
                     <li>
-                        <AiOutlineStar/>
+                        <AiOutlineStar />
                     </li>
                 </ul>
             </nav>
 
-            <div className="d30">
-
-                <section>
-                 <IoMdAdd/>
-                </section>
-
-            </div>
 
         </section>
+        <div className="d30">
 
+                <section>
+                    <IoMdAdd />
+                </section>
+
+            </div></>
     )
 }
 

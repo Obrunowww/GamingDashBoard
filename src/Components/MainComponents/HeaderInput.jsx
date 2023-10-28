@@ -1,14 +1,15 @@
-import {AiOutlineSearch} from "react-icons/ai"
+import { AiOutlineSearch } from "react-icons/ai"
+import { ImputCustomizadoStyled } from "../styledComponents/main/headerMain"
 
-function InputCustomizado(){
-    return(
-        <section className="imputCustomizado">
+function InputCustomizado() {
+    return (
+        <ImputCustomizadoStyled >
             <div className="pesquisa">
-            <AiOutlineSearch/>
+                <AiOutlineSearch />
             </div>
-            <input type="text" placeholder="Search anything..."/>
-        </section>
+            <input type="text" placeholder="Search anything..." />
+        </ImputCustomizadoStyled >
     )
-  }
+}
 
 export default InputCustomizado
